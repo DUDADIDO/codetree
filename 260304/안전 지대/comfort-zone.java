@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Main {
@@ -10,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int maxHeight = Integer.MIN_VALUE;
-        int maxCnt = Integer.MIN_VALUE;
+        int maxCnt = 0;
         int maxIdx = 0;
         
         n = sc.nextInt();
