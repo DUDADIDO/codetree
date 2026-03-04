@@ -10,7 +10,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int maxHeight = Integer.MIN_VALUE;
         int maxCnt = 0;
-        int maxIdx = 0;
+        int maxIdx = 1;
         
         n = sc.nextInt();
         m = sc.nextInt();
